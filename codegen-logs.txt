@@ -1,0 +1,37 @@
+[2023-01-30T18:18:48Z WARN  lib_flutter_rust_bridge_codegen::source_graph] Skipping unresolvable module io (tried /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/io.rs, /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/io/mod.rs, /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/bridge_generated/io.rs, /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/bridge_generated/io/mod.rs, )
+Flutter 3.7.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision b06b8b2710 (7 days ago) • 2023-01-23 16:55:55 -0800
+Engine • revision b24591ed32
+Tools • Dart 2.19.0 • DevTools 2.20.1
+[2023-01-30T18:18:49Z INFO  lib_flutter_rust_bridge_codegen] Picked config: Opts { rust_input_path: "/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/api.rs", dart_output_path: "/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/lib/bridge_generated.dart", dart_decl_output_path: Some("/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/lib/bridge_definitions.dart"), c_output_path: ["/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/ios/Runner/bridge_generated.h", "macos/Runner/bridge_generated.h"], rust_crate_dir: "/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native", rust_output_path: "/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/bridge_generated.rs", class_name: "Native", dart_format_line_length: 80, skip_add_mod_to_lib: false, llvm_path: ["/opt/homebrew/opt/llvm", "/usr/local/opt/llvm", "/usr/lib/llvm-9", "/usr/lib/llvm-10", "/usr/lib/llvm-11", "/usr/lib/llvm-12", "/usr/lib/llvm-13", "/usr/lib/llvm-14", "/usr/lib/", "/usr/lib64/", "C:/Program Files/llvm", "C:/msys64/mingw64"], llvm_compiler_opts: "", manifest_path: "/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/Cargo.toml", dart_root: Some("/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report"), build_runner: true, block_index: BlockIndex(0), skip_deps_check: false, wasm_enabled: false, inline_rust: false }
+[2023-01-30T18:18:49Z INFO  lib_flutter_rust_bridge_codegen] Phase: Parse source code to AST, then to IR
+[2023-01-30T18:18:49Z WARN  lib_flutter_rust_bridge_codegen::source_graph] Skipping unresolvable module io (tried /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/io.rs, /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/io/mod.rs, /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/bridge_generated/io.rs, /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/native/src/bridge_generated/io/mod.rs, )
+[2023-01-30T18:18:49Z INFO  lib_flutter_rust_bridge_codegen] Phase: Transform IR
+[2023-01-30T18:18:49Z INFO  lib_flutter_rust_bridge_codegen] Phase: Generate Rust code
+[2023-01-30T18:18:49Z INFO  lib_flutter_rust_bridge_codegen] Phase: Generate Dart code
+[2023-01-30T18:18:49Z INFO  lib_flutter_rust_bridge_codegen] Phase: Generating Dart bindings for Rust
+Running in Directory: '/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report'
+Input Headers: [/tmp/.tmpZ82gW3.h]
+[SEVERE] : Header /tmp/.tmpZ82gW3.h: Total errors/warnings: 1.
+[SEVERE] :     /tmp/.tmpZ82gW3.h:1:10: fatal error: 'stdbool.h' file not found [Lexical or Preprocessor Issue]
+[WARNING]: No definition found for declaration - (Cursor) spelling: _Dart_Handle, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct _Dart_Handle, usr: c:@S@_Dart_Handle
+[WARNING]: No definition found for declaration - (Cursor) spelling: _Dart_Handle, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct _Dart_Handle, usr: c:@S@_Dart_Handle
+[WARNING]: No definition found for declaration - (Cursor) spelling: DartCObject, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct DartCObject, usr: c:@S@DartCObject
+[WARNING]: No definition found for declaration - (Cursor) spelling: DartCObject, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct DartCObject, usr: c:@S@DartCObject
+[WARNING]: No definition found for declaration - (Cursor) spelling: _Dart_Handle, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct _Dart_Handle, usr: c:@S@_Dart_Handle
+[WARNING]: No definition found for declaration - (Cursor) spelling: _Dart_Handle, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct _Dart_Handle, usr: c:@S@_Dart_Handle
+[WARNING]: No definition found for declaration - (Cursor) spelling: _Dart_Handle, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct _Dart_Handle, usr: c:@S@_Dart_Handle
+[WARNING]: No definition found for declaration - (Cursor) spelling: _Dart_Handle, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct _Dart_Handle, usr: c:@S@_Dart_Handle
+[WARNING]: No definition found for declaration - (Cursor) spelling: DartCObject, kind: 2, kindSpelling: StructDecl, type: 105, typeSpelling: struct DartCObject, usr: c:@S@DartCObject
+[WARNING]: Generated declaration '_Dart_Handle' start's with '_' and therefore will be private.
+Finished, Bindings generated in /tmp/.tmpnLhXeC
+the path is "/home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/ios/Runner/bridge_generated.h"
+the path is "macos/Runner/bridge_generated.h"
+[2023-01-30T18:18:50Z INFO  lib_flutter_rust_bridge_codegen] Phase: Running build_runner
+[2023-01-30T18:18:50Z INFO  lib_flutter_rust_bridge_codegen] Phase: Formatting Dart code
+Formatted /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/lib/bridge_generated.dart
+Formatted /home/q/Vault/projects/flutter/flutter_rust_bridge_bug_report/lib/bridge_definitions.dart
+Formatted 2 files (2 changed) in 0.24 seconds.
+[2023-01-30T18:18:50Z INFO  lib_flutter_rust_bridge_codegen] Success!
+[2023-01-30T18:18:50Z INFO  flutter_rust_bridge_codegen] Now go and use it :)
+
